@@ -66,12 +66,6 @@
     "answer": "Francis"
   },
   {
-    "id": 12,
-    "question": "What was Joey's childhood imaginary friend's name and profession?",
-    "choices": [],
-    "answer": "Maurice, space cowboy"
-  },
-  {
     "id": 13,
     "question": "Which sister did Chandler kiss?",
     "choices": [],
@@ -276,12 +270,6 @@
     "answer": "Eddie"
   },
   {
-    "id": 47,
-    "question": "Which famous actor did Joey play a 'butt double' for?",
-    "choices": [],
-    "answer": "Al Pacino"
-  },
-  {
     "id": 48,
     "question": "What book does Joey read while Rachel is reading The Shining?",
     "choices": [],
@@ -301,7 +289,7 @@
   },
   {
     "id": 51,
-    "question": "The series Friends is set in which city?",
+    "question": "In which city the series Friends is set?",
     "choices": [
       "Los Angeles",
       "New York City",
@@ -323,7 +311,7 @@
   },
   {
     "id": 53,
-    "question": "What is Monica skilled at?",
+    "question": "What is Monica most skilled at?",
     "choices": [
       "Bricklaying",
       "Cooking",
@@ -454,17 +442,6 @@
     "answer": "Joey Tribbiani"
   },
   {
-    "id": 65,
-    "question": "Who was Chandler’s TV magazine always addressed to?",
-    "choices": [
-      "Chanandler Bong",
-      "Chanandler Bang",
-      "Chanandler Bing",
-      "Chanandler Beng"
-    ],
-    "answer": "Chanandler Bong"
-  },
-  {
     "id": 66,
     "question": "What is Janice most likely to say?",
     "choices": [
@@ -510,7 +487,7 @@
   },
   {
     "id": 70,
-    "question": "What are Ross and Monica’s parents called?",
+    "question": "What are Ross and Monica’s parents names?",
     "choices": [
       "Jack and Jill",
       "Philip and Holly",
@@ -518,17 +495,6 @@
       "Margaret and Peter"
     ],
     "answer": "Jack and Judy"
-  },
-  {
-    "id": 71,
-    "question": "What is the name of Phoebe’s alter-ego?",
-    "choices": [
-      "Phoebe Neeby",
-      "Monica Bing",
-      "Regina Phalange",
-      "Elaine Benes"
-    ],
-    "answer": "Regina Phalange"
   },
   {
     "id": 72,
@@ -554,7 +520,7 @@
   },
   {
     "id": 74,
-    "question": "Chandler’s mom had an interesting career and even more interesting love life. What’s her name?",
+    "question": "What’s Chandler’s mom name?",
     "choices": [
       "Priscilla Mae Galway",
       "Nora Tyler Bing",
@@ -605,12 +571,6 @@
     "answer": "Las Vegas"
   },
   {
-    "id": 81,
-    "question": "In season seven, Rachel meets an attractive new assistant at Polo Ralph Lauren. They are forced to keep their subsequent relationship secret from their boss. What was his name?",
-    "choices": [],
-    "answer": "‘Tag’ Jones"
-  },
-  {
     "id": 82,
     "question": "It was revealed at her memorial service that Estelle only had one other client, and he ate paper. What was his name?",
     "choices": [],
@@ -621,18 +581,6 @@
     "question": "What is the name of the neighbour who lives below Monica and Rachel, often heard banging his broomstick on the ceiling?",
     "choices": [],
     "answer": "Mr. Heckles"
-  },
-  {
-    "id": 84,
-    "question": "What is the name of the student Ross dates in season six where Ross is initially concerned for his career until he catches her embarrassed father Paul in front of the mirror?",
-    "choices": [],
-    "answer": "Elizabeth"
-  },
-  {
-    "id": 85,
-    "question": "What is the name of Phoebe’s formerly bald friend who she wants to set up with Ross in season 3’s ‘The One with the Ultimate Fighting Champion’?",
-    "choices": [],
-    "answer": "Bonnie"
   },
   {
     "id": 86,
@@ -663,12 +611,6 @@
     "question": "How many failed marriages does Ross have during the series?",
     "choices": [],
     "answer": "3"
-  },
-  {
-    "id": 91,
-    "question": "How many categories does Monica have for her towels?",
-    "choices": [],
-    "answer": "11"
   },
   {
     "id": 92,
@@ -723,17 +665,6 @@
     "question": "Who did Phoebe think her grandfather was?",
     "choices": [],
     "answer": "Albert Einstein"
-  },
-  {
-    "id": 101,
-    "question": "How many times was Ross legally divorced?",
-    "choices": [
-      "Twice",
-      "Three times",
-      "Five times",
-      "Six times"
-    ],
-    "answer": "Three times"
   },
   {
     "id": 102,
@@ -802,17 +733,6 @@
     "answer": "Valentine's Day"
   },
   {
-    "id": 108,
-    "question": "Which of the following ingredients were not in Rachel's iconic Thanksgiving trifle?",
-    "choices": [
-      "Ladyfingers and jam",
-      "Beef with peas and onions",
-      "Raisins and walnuts",
-      "Bananas and custard"
-    ],
-    "answer": "Raisins and walnuts"
-  },
-  {
     "id": 109,
     "question": "Who did Rachel discover her ex-fiancé Barry was cheating on her with?",
     "choices": [
@@ -821,7 +741,7 @@
       "His coworker",
       "Her college roommate"
     ],
-    "answer": "Her best friend"
+    "answer": "Her best friend, Molly"
   },
   {
     "id": 110,
@@ -901,28 +821,6 @@
     "answer": "Alessandro’s"
   },
   {
-    "id": 117,
-    "question": "What job did Monica’s older boyfriend Richard Burke have?",
-    "choices": [
-      "Dentist",
-      "Sous chef",
-      "Stockbroker",
-      "Ophthalmologist"
-    ],
-    "answer": "Ophthalmologist"
-  },
-  {
-    "id": 118,
-    "question": "What did Pete Becker do for Monica on their first date?",
-    "choices": [
-      "He buys her a restaurant",
-      "He buys her a $20,000 necklace",
-      "He flies them to Rome for Pizza",
-      "He introduces her to Jon Bon Jovi "
-    ],
-    "answer": "He flies them to Rome for Pizza"
-  },
-  {
     "id": 119,
     "question": "Monica and Chandler adopted Erica's kid(s). How many kid(s) did she have?",
     "choices": [
@@ -931,17 +829,6 @@
       "Triplets"
     ],
     "answer": "Twins"
-  },
-  {
-    "id": 120,
-    "question": "Which of the following Chandler “facts” is false?",
-    "choices": [
-      "He has a third nipple",
-      "He is missing a pinky toe",
-      "He once won a Vanilla Ice lookalike contest",
-      "He dated Phoebe as a kid"
-    ],
-    "answer": "He dated Phoebe as a kid"
   },
   {
     "id": 121,
@@ -988,17 +875,6 @@
     "answer": "Joey"
   },
   {
-    "id": 125,
-    "question": "How many sisters did Joey Tribbiani have?",
-    "choices": [
-      "3",
-      "5",
-      "7",
-      "9"
-    ],
-    "answer": "7"
-  },
-  {
     "id": 126,
     "question": "In “The One Where Estelle Dies,” who pretended to be Estelle when Joey called?",
     "choices": [
@@ -1043,14 +919,9 @@
   },
   {
     "id": 130,
-    "question": "Which of the following was not the name of one of Alice and Frank Jr.’s kids?",
-    "choices": [
-      "Leslie",
-      "Ursula",
-      "Chandler",
-      "Frank Jr. Jr."
-    ],
-    "answer": "Ursula"
+    "question": "Name Alice and Frank Jr.’s kids?",
+    "choices": [],
+    "answer": "Leslie, Chandler & Frank Jr. Jr."
   },
   {
     "id": 131,
@@ -1086,19 +957,8 @@
     "answer": "At a Knicks game"
   },
   {
-    "id": 134,
-    "question": "Who did Mr. Heckles leave his apartment to when he died?",
-    "choices": [
-      "Joey and Chandler",
-      "Monica and Ross",
-      "Monica and Rachel",
-      "Phoebe and Rachel"
-    ],
-    "answer": "Monica and Rachel"
-  },
-  {
     "id": 135,
-    "question": "Jasmine knew about Ross cheating on Rachel because Isaac from the Xerox store is her brother. Who did she tell? For context, this is during the whole 'we were on a break!' mess.",
+    "question": "Jasmine knew about Ross cheating on Rachel because Isaac from the Xerox store is her brother. Who did she tell?",
     "choices": [
       "Her coworker, Phoebe",
       "Her ex-boyfriend, Joey",
@@ -1109,7 +969,7 @@
   },
   {
     "id": 136,
-    "question": "This is Joshua Burgin. Who had a crush on him?",
+    "question": "Who had a crush on Joshua Burgin?",
     "choices": [
       "Monica",
       "Rachel",
@@ -1141,7 +1001,7 @@
   },
   {
     "id": 139,
-    "question": "Do you remember the name of Ross's student and ex-girlfriend?",
+    "question": "What is the name of Ross's student and ex-girlfriend?",
     "choices": [
       "Sarah",
       "Elizabeth",
@@ -1182,17 +1042,6 @@
     "answer": "Who would get Emma if Rachel and Ross die"
   },
   {
-    "id": 143,
-    "question": "Whose mom is this?",
-    "choices": [
-      "Ross and Monica",
-      "Rachel",
-      "Joey",
-      "Chandler"
-    ],
-    "answer": "Ross and Monica"
-  },
-  {
     "id": 144,
     "question": "What does Monica's dad, Jack, give her because her childhood belongings were ruined in a flood?",
     "choices": [
@@ -1226,17 +1075,6 @@
     "answer": "Doctor"
   },
   {
-    "id": 147,
-    "question": "What drag name did Chandler's dad go by?",
-    "choices": [
-      "Princess Consuela Bananahammock",
-      "Helena Handbasket",
-      "Farrah Moan",
-      "Izzy Rich"
-    ],
-    "answer": "Helena Handbasket"
-  },
-  {
     "id": 148,
     "question": "What is the name of Phoebe's actual birth mother?",
     "choices": [
@@ -1259,35 +1097,6 @@
     "answer": "Dina"
   },
   {
-    "id": 150,
-    "question": "And finally, what did Chandler’s mom do for a living?",
-    "choices": [
-      "Organize children’s beauty pageants",
-      "Write erotic novels",
-      "Make animal scented candles",
-      "International pop star"
-    ],
-    "answer": "Write erotic novels"
-  },
-  {
-    "id": 151,
-    "question": "How many seasons of Friends are there?",
-    "choices": [],
-    "answer": "Ten seasons"
-  },
-  {
-    "id": 152,
-    "question": "Joey played Dr. Drake Ramoray on which soap opera show?",
-    "choices": [],
-    "answer": "Days of Our Lives"
-  },
-  {
-    "id": 153,
-    "question": "How many times did Ross get divorced?",
-    "choices": [],
-    "answer": "Three"
-  },
-  {
     "id": 154,
     "question": "What store does Phoebe hate?",
     "choices": [],
@@ -1298,12 +1107,6 @@
     "question": "Rachel got a job with which company in Paris?",
     "choices": [],
     "answer": "Louis Vuitton"
-  },
-  {
-    "id": 156,
-    "question": "What are the names of Ross and Monica’s parents?",
-    "choices": [],
-    "answer": "Jack and Judy Geller"
   },
   {
     "id": 157,
@@ -1318,152 +1121,98 @@
     "answer": "Rachel"
   },
   {
-    "id": 159,
-    "question": "Phoebe’s scientist boyfriend David worked in what city?",
-    "choices": [],
-    "answer": "Minsk"
-  },
-  {
-    "id": 160,
-    "question": " Monica dated an ophthalmologist named?",
-    "choices": [],
-    "answer": "Richard"
-  },
-  {
     "id": 161,
-    "question": " Which Sprouse brother played Ross’ son Ben?",
+    "question": "Which Sprouse brother played Ross’ son Ben?",
     "choices": [],
     "answer": "Cole"
   },
   {
     "id": 162,
-    "question": " True or false, Rachel kissed all of her Friends (male and female) on the show?",
+    "question": "True or false, Rachel kissed all of her Friends (male and female) on the show?",
     "choices": [],
     "answer": "True"
   },
   {
-    "id": 163,
-    "question": " What is Chandler Bing’s middle name?",
-    "choices": [],
-    "answer": "Muriel"
-  },
-  {
-    "id": 164,
-    "question": " Who pees on Monica after she is stung by a jellyfish?",
-    "choices": [],
-    "answer": "Chandler"
-  },
-  {
     "id": 165,
-    "question": " What is the name of Phoebe’s twin sister?",
+    "question": "What is the name of Phoebe’s twin sister?",
     "choices": [],
     "answer": "Ursula"
   },
   {
     "id": 166,
-    "question": " Ross says whose name at the altar in London?",
+    "question": "Ross says whose name at the altar in London?",
     "choices": [],
     "answer": "Rachel"
   },
   {
     "id": 167,
-    "question": " Which member of the British royal family appeared on Friends?",
+    "question": "Which member of the British royal family appeared on Friends?",
     "choices": [],
     "answer": "Sarah Ferguson/Duchess of York"
   },
   {
     "id": 168,
-    "question": " Brad Pitt and David Schwimmer’s characters cofounded what club in high school?",
+    "question": "Brad Pitt and David Schwimmer’s characters cofounded what club in high school?",
     "choices": [],
-    "answer": "The “I Hate Rachel Green Club."
+    "answer": "The 'I Hate Rachel Green Club.'"
   },
   {
     "id": 169,
-    "question": " Which of Joey’s sisters did Chandler fool around with?",
+    "question": "Which of Joey’s sisters did Chandler fool around with?",
     "choices": [],
     "answer": "Mary Angela"
   },
   {
     "id": 170,
-    "question": " Who was Joey’s imaginary childhood friend? ",
+    "question": "Who was Joey’s imaginary childhood friend? ",
     "choices": [],
     "answer": "Maurice"
   },
   {
     "id": 171,
-    "question": " What was the profession of Joey’s imaginary friend?",
+    "question": "What was the profession of Joey’s imaginary friend?",
     "choices": [],
     "answer": "Space cowboy"
   },
   {
     "id": 172,
-    "question": " What was Monica’s nickname when she was a field hockey goalie?",
+    "question": "What was Monica’s nickname when she was a field hockey goalie?",
     "choices": [],
     "answer": "Big Fat Goalie"
   },
   {
     "id": 173,
-    "question": " What does Rachel guess Chandler’s job is?",
+    "question": "What does Rachel guess Chandler’s job is?",
     "choices": [],
     "answer": "A transponster"
   },
   {
     "id": 174,
-    "question": " What is Richard’s daughter’s name?",
+    "question": "What is Richard’s daughter’s name?",
     "choices": [],
     "answer": "Michelle"
   },
   {
-    "id": 175,
-    "question": " Who is Joey’s agent?",
-    "choices": [],
-    "answer": "Estelle"
-  },
-  {
     "id": 176,
-    "question": " Who mistakingly threw a woman’s wooden leg into a fire?",
+    "question": "Who mistakingly threw a woman’s wooden leg into a fire?",
     "choices": [],
     "answer": "Joey"
   },
   {
-    "id": 177,
-    "question": " What was the name of Chandler and Ross’ college band?",
-    "choices": [],
-    "answer": "Way, No Way"
-  },
-  {
-    "id": 178,
-    "question": " Monica categorizes her towels into how many categories?",
-    "choices": [],
-    "answer": "11"
-  },
-  {
     "id": 179,
-    "question": " Ross and Rachel’s wedding dinner was held where in Vegas?",
+    "question": "Ross and Rachel’s wedding dinner was held where in Vegas?",
     "choices": [],
     "answer": "A Pizza Hut"
   },
   {
-    "id": 180,
-    "question": " Joey and Chandler’s TV guide is addressed to who?",
-    "choices": [],
-    "answer": "Miss Chanandler Bong"
-  },
-  {
-    "id": 181,
-    "question": " What was the name of Ross’ pet monkey?",
-    "choices": [],
-    "answer": "Marcel"
-  },
-  {
     "id": 182,
-    "question": " According to Monica, a woman has how many erogenous zones?",
+    "question": "According to Monica, a woman has how many erogenous zones?",
     "choices": [],
     "answer": "Seven"
   },
   {
     "id": 183,
-    "question": " What does Phoebe legally change her name to after her wedding?",
+    "question": "What does Phoebe legally change her name to after her wedding?",
     "choices": [],
     "answer": "Princess Consulea Banana Hammock"
   },
@@ -1475,698 +1224,554 @@
   },
   {
     "id": 185,
-    "question": " What song makes Ross and Rachel’s daughter Emma laugh for the first time?",
+    "question": "What song makes Ross and Rachel’s daughter Emma laugh for the first time?",
     "choices": [],
-    "answer": "Sir Mix-a-Lot’s “Baby Got Back."
-  },
-  {
-    "id": 186,
-    "question": " What is the name of Joey’s stuffed penguin?",
-    "choices": [],
-    "answer": "Hugsy"
+    "answer": "Sir Mix-a-Lot’s 'Baby Got Back.'"
   },
   {
     "id": 187,
-    "question": " What caused the fire at Rachel and Phoebe’s apartment?",
+    "question": "What caused the fire at Rachel and Phoebe’s apartment?",
     "choices": [],
     "answer": "Rachel’s hair straightener"
   },
   {
-    "id": 188,
-    "question": " Phoebe is a surrogate for who?",
-    "choices": [],
-    "answer": "Her half-brother Frank Jr. and his wife Alice"
-  },
-  {
     "id": 189,
-    "question": " What color is Monica’s apartment?",
+    "question": "What color is Monica’s apartment?",
     "choices": [],
     "answer": "Purple"
   },
   {
-    "id": 190,
-    "question": " How many sisters does Joey have?",
-    "choices": [],
-    "answer": "Seven"
-  },
-  {
-    "id": 191,
-    "question": " Joey doesn’t share what?",
-    "choices": [],
-    "answer": "Food"
-  },
-  {
-    "id": 192,
-    "question": " What do Monica and Chandler name their twins?",
-    "choices": [],
-    "answer": "Erica and Jack"
-  },
-  {
     "id": 193,
-    "question": " Ross’ first wife Carol leaves him for who?",
+    "question": "Ross’ first wife Carol leaves him for who?",
     "choices": [],
     "answer": "Susan Bunch"
   },
   {
     "id": 194,
-    "question": " What is the name of Chandler’s father’s Las Vegas all-male burlesque?",
+    "question": "What is the name of Chandler’s father’s Las Vegas all-male burlesque?",
     "choices": [],
     "answer": "Viva Las Gaygas"
   },
   {
     "id": 195,
-    "question": " Phoebe attempts to teach Joey what language?",
+    "question": "Phoebe attempts to teach Joey what language?",
     "choices": [],
     "answer": "French"
   },
   {
     "id": 196,
-    "question": " Chick Jr. and Duck Jr. got stuck in what?",
+    "question": "Chick Jr. and Duck Jr. got stuck in what?",
     "choices": [],
     "answer": "A foosball table"
   },
   {
     "id": 197,
-    "question": " Who was married to a supposedly gay Canadian ice dancer named Duncan?",
+    "question": "Who was married to a supposedly gay Canadian ice dancer named Duncan?",
     "choices": [],
     "answer": "Phoebe"
   },
   {
     "id": 198,
-    "question": " Rachel was in which sorority?",
+    "question": "Rachel was in which sorority?",
     "choices": [],
     "answer": "Kappa Kappa Delta"
   },
   {
     "id": 199,
-    "question": " What are the names of Rachel’s sisters?",
+    "question": "What are the names of Rachel’s sisters?",
     "choices": [],
     "answer": "Jill and Amy Greene"
   },
   {
     "id": 200,
-    "question": " Which character famously said, “PIVOT?”",
+    "question": "Which character famously said, “PIVOT?”",
     "choices": [],
     "answer": "Ross"
   },
   {
-    "id": 201,
-    "question": " Phoebe finds what in her soda can?",
-    "choices": [],
-    "answer": "A human thumb"
-  },
-  {
-    "id": 202,
-    "question": " Who was (accidentally) Monica’s first kiss?",
-    "choices": [],
-    "answer": "Her brother Ross"
-  },
-  {
     "id": 203,
-    "question": " Rachel goes on Ross’ honeymoon by herself where?",
+    "question": "Rachel goes on Ross’ honeymoon by herself where?",
     "choices": [],
     "answer": "Athens, Greece"
   },
   {
     "id": 204,
-    "question": " What holiday does Chandler hate?",
+    "question": "What holiday does Chandler hate?",
     "choices": [],
     "answer": "Thanksgiving"
   },
   {
     "id": 205,
-    "question": " Who was Rachel’s prom date?",
+    "question": "Who was Rachel’s prom date?",
     "choices": [],
     "answer": "Chip Matthews"
   },
   {
-    "id": 206,
-    "question": " What was the name of Ross and Monica’s dog when they were kids?",
-    "choices": [],
-    "answer": "Chi-Chi"
-  },
-  {
     "id": 207,
-    "question": " What actor played Phoebe’s husband Mike Hannigan?",
+    "question": "What actor played Phoebe’s husband Mike Hannigan?",
     "choices": [],
     "answer": "Paul Rudd"
   },
   {
     "id": 208,
-    "question": " Where did Ross and Rachel have their first date?",
+    "question": "Where did Ross and Rachel have their first date?",
     "choices": [],
     "answer": "The planetarium"
   },
   {
     "id": 209,
-    "question": " How many roses did Ross send Emily?",
+    "question": "How many roses did Ross send Emily?",
     "choices": [],
     "answer": "72"
   },
   {
-    "id": 210,
-    "question": " How many pages was Rachel’s letter to Ross?",
-    "choices": [],
-    "answer": "Eighteen pages (front and back)"
-  },
-  {
     "id": 211,
-    "question": " What year did Friends first premiere?",
+    "question": "What year did Friends first premiere?",
     "choices": [],
     "answer": "1994"
   },
   {
     "id": 212,
-    "question": " Joey’s Cabbage Patch Kid is named what?",
+    "question": "Joey’s Cabbage Patch Kid is named what?",
     "choices": [],
     "answer": "Alicia May Emor"
   },
   {
     "id": 213,
-    "question": " What was the name of the game Chandler made up to give Joey money?",
+    "question": "What was the name of the game Chandler made up to give Joey money?",
     "choices": [],
     "answer": "Cups"
   },
   {
     "id": 214,
-    "question": " In an effort to get over Richard, Monica started making what?",
+    "question": "In an effort to get over Richard, Monica started making what?",
     "choices": [],
     "answer": "Jam"
   },
   {
     "id": 215,
-    "question": " What fruit is Ross allergic to?",
+    "question": "What fruit is Ross allergic to?",
     "choices": [],
     "answer": "Kiwi"
   },
   {
     "id": 216,
-    "question": " What is Rachel’s favorite flower?",
+    "question": "What is Rachel’s favorite flower?",
     "choices": [],
     "answer": "Lillies"
   },
   {
     "id": 217,
-    "question": " What was the name of Ross and Rachel’s male nanny?",
+    "question": "What was the name of Ross and Rachel’s male nanny?",
     "choices": [],
     "answer": "Sandy"
   },
   {
     "id": 218,
-    "question": " Who came on to who in The One With The Videotape?",
+    "question": "Who came on to who in The One With The Videotape?",
     "choices": [],
     "answer": "Rachel came on to Ross"
   },
   {
     "id": 219,
-    "question": " What was Joey’s nickname when he was working at Alessandro’s?",
+    "question": "What was Joey’s nickname when he was working at Alessandro’s?",
     "choices": [],
     "answer": "Dragon"
   },
   {
-    "id": 220,
-    "question": " Monica worked as a waitress at what diner?",
-    "choices": [],
-    "answer": "Moondance Diner"
-  },
-  {
     "id": 221,
-    "question": " What was Rachel’s bra size?",
+    "question": "What was Rachel’s bra size?",
     "choices": [],
     "answer": "32C"
   },
   {
     "id": 222,
-    "question": " Ross worked as a professor at what school?",
+    "question": "Ross worked as a professor at what school?",
     "choices": [],
     "answer": "New York University"
   },
   {
     "id": 223,
-    "question": " What word did Rachel misspell on her resume?",
+    "question": "What word did Rachel misspell on her resume?",
     "choices": [],
     "answer": "Computer"
   },
   {
-    "id": 224,
-    "question": " What are the names of the triplets Phoebe gives birth to?",
-    "choices": [],
-    "answer": "Frank Jr. Jr., Leslie and Chandler"
-  },
-  {
     "id": 225,
-    "question": " Who said, “See, he’s her lobster!”",
+    "question": "Who said, 'See, he’s her lobster!'",
     "choices": [],
     "answer": "Phoebe"
   },
   {
-    "id": 226,
-    "question": " What city is Friends set in?",
-    "choices": [],
-    "answer": "New York City"
-  },
-  {
     "id": 227,
-    "question": " What is the first wedding gift Monica opens?",
+    "question": "What is the first wedding gift Monica opens?",
     "choices": [],
     "answer": "A tiny salt shaker"
   },
   {
     "id": 228,
-    "question": " Rachel’s sister Amy decides she wants to become what after babysitting Emma?",
+    "question": "Rachel’s sister Amy decides she wants to become what after babysitting Emma?",
     "choices": [],
     "answer": "A baby stylist"
   },
   {
     "id": 229,
-    "question": " Ross and Carol were busted having sex on which Disney ride?",
+    "question": "Ross and Carol were busted having sex on which Disney ride?",
     "choices": [],
     "answer": "It’s a Small World"
   },
   {
     "id": 230,
-    "question": " Which Friend entered a Vanilla Ice lookalike contest and won?",
+    "question": "Which Friend entered a Vanilla Ice lookalike contest and won?",
     "choices": [],
     "answer": "Chandler"
   },
   {
-    "id": 231,
-    "question": " True or false, Monica ate macaroni off a jewelry box she made.",
-    "choices": [],
-    "answer": "True"
-  },
-  {
-    "id": 232,
-    "question": " What ingredient did Rachel mistakingly put in her Thanksgiving trifle?",
-    "choices": [],
-    "answer": "Beef"
-  },
-  {
     "id": 233,
-    "question": " Phoebe thought “Kenny the Copy Guy” was who?",
+    "question": "Phoebe thought “Kenny the Copy Guy” was who?",
     "choices": [],
     "answer": "Ralph Lauren"
   },
   {
     "id": 234,
-    "question": " What is the name of Joey’s barcalounger?",
+    "question": "What is the name of Joey’s barcalounger?",
     "choices": [],
     "answer": "Rosita"
   },
   {
-    "id": 235,
-    "question": " Who dated a college student named Elizabeth Stevens?",
-    "choices": [],
-    "answer": "Ross"
-  },
-  {
     "id": 236,
-    "question": " Monica could not tell time until what age?",
+    "question": "Monica could not tell time until what age?",
     "choices": [],
     "answer": "13"
   },
   {
     "id": 237,
-    "question": " Phoebe created a three-dimensional picture of a woman named?",
+    "question": "Phoebe created a three-dimensional picture of a woman named?",
     "choices": [],
     "answer": "Gladys"
   },
   {
     "id": 238,
-    "question": " Who was the last Friend to find out about Monica and Chandler’s relationship?",
+    "question": "Who was the last Friend to find out about Monica and Chandler’s relationship?",
     "choices": [],
     "answer": "Ross"
   },
   {
     "id": 239,
-    "question": " Chandler and Joey both dated an actress named?",
+    "question": "Chandler and Joey both dated an actress named?",
     "choices": [],
     "answer": "Kathy"
   },
   {
     "id": 240,
-    "question": " What did Monica want from Phoebe as an engagement present?",
+    "question": "What did Monica want from Phoebe as an engagement present?",
     "choices": [],
     "answer": "Her grandmother‘s cookie recipe"
   },
   {
     "id": 241,
-    "question": " Who had a pony and a boat at age 15?",
+    "question": "Who had a pony and a boat at age 15?",
     "choices": [],
     "answer": "Rachel"
   },
   {
     "id": 242,
-    "question": " Phoebe said something was wrong with the right or the left phalange of Rachel’s plane?",
+    "question": "Phoebe said something was wrong with the right or the left phalange of Rachel’s plane?",
     "choices": [],
     "answer": "The left"
   },
   {
     "id": 243,
-    "question": " Who is Santa’s friend that Ross invents to teach Ben about Hanukkah?",
+    "question": "Who is Santa’s friend that Ross invents to teach Ben about Hanukkah?",
     "choices": [],
     "answer": "The Holiday Armadillo"
   },
   {
     "id": 244,
-    "question": " Who is the youngest Friend?",
+    "question": "Who is the youngest Friend?",
     "choices": [],
     "answer": "Rachel"
   },
   {
     "id": 245,
-    "question": " Chandler told Janice he was moving where to avoid seeing her again?",
+    "question": "Chandler told Janice he was moving where to avoid seeing her again?",
     "choices": [],
     "answer": "Yemen"
   },
   {
-    "id": 246,
-    "question": " Who introduced Phoebe and Mike?",
-    "choices": [],
-    "answer": "Joey"
-  },
-  {
     "id": 247,
-    "question": " Phoebe’s grandmother said she got her cookie recipe from her grandmother named?",
+    "question": "Phoebe’s grandmother said she got her cookie recipe from her grandmother named?",
     "choices": [],
     "answer": "Nestle Toulouse (AKA Nestlé Toll House)"
   },
   {
     "id": 248,
-    "question": " The Geller Cup was a trophy for which sport?",
+    "question": "The Geller Cup was a trophy for which sport?",
     "choices": [],
     "answer": "Touch football games"
   },
   {
-    "id": 249,
-    "question": " Joey’s stalker Erika Ford was played by which actress?",
-    "choices": [],
-    "answer": "Brooke Shields"
-  },
-  {
     "id": 250,
-    "question": " Who did Monica forget to invite to Rachel’s baby shower?",
+    "question": "Who did Monica forget to invite to Rachel’s baby shower?",
     "choices": [],
     "answer": "Rachel’s mother Sandra"
   },
   {
     "id": 251,
-    "question": ": Which of Monica’s boyfriends wanted to become the Ultimate Fighting Champion?",
+    "question": "Which of Monica’s boyfriends wanted to become the Ultimate Fighting Champion?",
     "choices": [],
     "answer": "Pete (Peter Becker)"
   },
   {
     "id": 252,
-    "question": ": What was the name of the lipstick brand for men that Joey starred in a Japanese commercial for?",
+    "question": "What was the name of the lipstick brand for men that Joey starred in a Japanese commercial for?",
     "choices": [],
     "answer": "Ichiban"
   },
   {
     "id": 253,
-    "question": ": Ross, Susan and Phoebe got stuck where before Ben’s birth?",
+    "question": "Ross, Susan and Phoebe got stuck where before Ben’s birth?",
     "choices": [],
     "answer": "A closet"
   },
   {
     "id": 254,
-    "question": ": Who gave Phoebe away at her wedding?",
+    "question": "Who gave Phoebe away at her wedding?",
     "choices": [],
     "answer": "Chandler"
   },
   {
     "id": 255,
-    "question": ": Monica and Chandler first got together where?",
+    "question": "Monica and Chandler first got together where?",
     "choices": [],
     "answer": "London"
   },
   {
     "id": 256,
-    "question": ": The handcuffs that were found in Rachel’s former room belonged to who?",
+    "question": "The handcuffs that were found in Rachel’s former room belonged to who?",
     "choices": [],
     "answer": "Monica and Ross’ Nana (grandmother)"
   },
   {
     "id": 257,
-    "question": ": Chandler and Ross helped Joey practice for what game show audition?",
+    "question": "Chandler and Ross helped Joey practice for what game show audition?",
     "choices": [],
     "answer": "Bamboozled"
   },
   {
     "id": 258,
-    "question": ": What does Chandler call the Paris of Oklahoma?",
+    "question": "What does Chandler call the Paris of Oklahoma?",
     "choices": [],
     "answer": "Tulsa"
   },
   {
     "id": 259,
-    "question": ": What food caused Ross to get sick on Space Mountain?",
+    "question": "What food caused Ross to get sick on Space Mountain?",
     "choices": [],
     "answer": "Tacos"
   },
   {
     "id": 260,
-    "question": ": Who is older Ross or Monica?",
+    "question": "Who is older: Ross or Monica?",
     "choices": [],
     "answer": "Ross"
   },
   {
     "id": 261,
-    "question": ": What is actually Rachel’s favorite movie?",
+    "question": "What is actually Rachel’s favorite movie?",
     "choices": [],
     "answer": "Weekend at Bernie’s"
   },
   {
     "id": 262,
-    "question": ": Which Friend had a traumatic swing incident at age 4?",
+    "question": "Which Friend had a traumatic swing incident at age 4?",
     "choices": [],
     "answer": "Rachel"
   },
   {
     "id": 263,
-    "question": ": Ross and Rachel’s daughter Emma would have turned 18 what year?",
+    "question": "Ross and Rachel’s daughter Emma would have turned 18 what year?",
     "choices": [],
     "answer": "2020"
   },
   {
     "id": 264,
-    "question": ": Which Friend didn’t go to London for Ross’ wedding?",
+    "question": "Which Friend didn’t go to London for Ross’ wedding?",
     "choices": [],
     "answer": "Phoebe"
   },
   {
     "id": 265,
-    "question": ": What kind of bed did the Mattress King deliver to Monica?",
+    "question": "What kind of bed did the Mattress King deliver to Monica?",
     "choices": [],
     "answer": "A racecar bed"
   },
   {
     "id": 266,
-    "question": ": Emma’s first birthday cake was supposed to be shaped like what?",
+    "question": "Emma’s first birthday cake was supposed to be shaped like what?",
     "choices": [],
     "answer": "A bunny"
   },
   {
     "id": 267,
-    "question": ": In what part of her body did Monica get a pencil stuck at age 14?",
+    "question": "In what part of her body did Monica get a pencil stuck at age 14?",
     "choices": [],
     "answer": "Her ear"
   },
   {
     "id": 268,
-    "question": ": Ross created a comic book called what?",
+    "question": "Ross created a comic book called what?",
     "choices": [],
     "answer": "Science Boy"
   },
   {
-    "id": 269,
-    "question": ": What is Chandler’s surname?",
-    "choices": [],
-    "answer": "Bing"
-  },
-  {
     "id": 270,
-    "question": ": What is Joey’s favorite food?",
+    "question": "What is Joey’s favorite food?",
     "choices": [],
     "answer": "Sandwiches"
   },
   {
     "id": 271,
-    "question": ": How old was Chandler when he first touched a girl’s breast?",
+    "question": "How old was Chandler when he first touched a girl’s breast?",
     "choices": [],
     "answer": "19"
   },
   {
-    "id": 272,
-    "question": ": What is Monica’s biggest pet peeve?",
-    "choices": [],
-    "answer": "Animals dressed as humans"
-  },
-  {
     "id": 273,
-    "question": ": Which Friend had his/her identity stolen?",
+    "question": "Which Friend had his/her identity stolen?",
     "choices": [],
     "answer": "Monica"
   },
   {
     "id": 274,
-    "question": ": Joey doesn’t read which book without making sure there is plenty of room in the freezer?",
+    "question": "Joey doesn’t read which book without making sure there is plenty of room in the freezer?",
     "choices": [],
     "answer": "The Shining"
   },
   {
-    "id": 275,
-    "question": ": What is the name of Ross and Monica’s maternal grandmother?",
-    "choices": [],
-    "answer": "Althea"
-  },
-  {
     "id": 276,
-    "question": ": Who stole all the insoles out of Chandler’s shoes?",
+    "question": "Who stole all the insoles out of Chandler’s shoes?",
     "choices": [],
     "answer": "Chandler’s roomate Eddie"
   },
   {
     "id": 277,
-    "question": ": Who gave Rachel and Ross the name “Emma” for their daughter?",
+    "question": "Who gave Rachel and Ross the name “Emma” for their daughter?",
     "choices": [],
     "answer": "Monica"
   },
   {
     "id": 278,
-    "question": ": Joey was cast as the butt double for which actor?",
+    "question": "Joey was cast as the butt double for which actor?",
     "choices": [],
     "answer": "Al Pacino"
   },
   {
-    "id": 279,
-    "question": ": What is the name of Phoebe’s alter ego?",
-    "choices": [],
-    "answer": "Regina Phalange"
-  },
-  {
     "id": 280,
-    "question": ": What year did the series finale of Friends air?",
+    "question": "What year did the series finale of Friends air?",
     "choices": [],
     "answer": "2004"
   },
   {
     "id": 281,
-    "question": ": What is the name of Rachel and Monica’s building superintendent?",
+    "question": "What is the name of Rachel and Monica’s building superintendent?",
     "choices": [],
     "answer": "Mr. Treeger"
   },
   {
     "id": 282,
-    "question": ": What is Joey’s pin number?",
+    "question": "What is Joey’s pin number?",
     "choices": [],
     "answer": "5639"
   },
   {
     "id": 283,
-    "question": ": What was the last state that Ross couldn’t remember?",
+    "question": "What was the last state that Ross couldn’t remember?",
     "choices": [],
     "answer": "Delaware"
   },
   {
     "id": 284,
-    "question": ": What was the name of Chandler’s roommate prior to Joey?",
+    "question": "What was the name of Chandler’s roommate prior to Joey?",
     "choices": [],
     "answer": "Kip"
   },
   {
     "id": 285,
-    "question": ": Whose idea was it to get married in Vegas, Rachel or Ross’?",
+    "question": "Whose idea was it to get married in Vegas, Rachel or Ross’?",
     "choices": [],
     "answer": "Rachel"
   },
   {
     "id": 286,
-    "question": ": What was the name of Monica’s imaginary boyfriend?",
+    "question": "What was the name of Monica’s imaginary boyfriend?",
     "choices": [],
     "answer": "Jared"
   },
   {
     "id": 287,
-    "question": ": What kind of plastic surgery did Rachel have?",
+    "question": "What kind of plastic surgery did Rachel have?",
     "choices": [],
     "answer": "A nose job"
   },
   {
     "id": 288,
-    "question": ": Who was called Sir Limps-a-Lot after losing a toe?",
+    "question": "Who was called Sir Limps-a-Lot after losing a toe?",
     "choices": [],
     "answer": "Chandler"
   },
   {
-    "id": 289,
-    "question": ": What was the name of Rachel’s hairless cat?",
-    "choices": [],
-    "answer": "Mrs. Whiskerson"
-  },
-  {
     "id": 290,
-    "question": ": Which balloon got away during the Macy’s Thanksgiving Day Parade in Season 1?",
+    "question": "Which balloon got away during the Macy’s Thanksgiving Day Parade in Season 1?",
     "choices": [],
     "answer": "Underdog"
   },
   {
     "id": 291,
-    "question": ": Who gave birth to Chandler and Monica’s twins?",
+    "question": "Who gave birth to Chandler and Monica’s twins?",
     "choices": [],
     "answer": "Erica"
   },
   {
     "id": 292,
-    "question": ": Chandler and Rachel ate cheesecake off the floor from what bakery?  ",
+    "question": "Chandler and Rachel ate cheesecake off the floor from what bakery?  ",
     "choices": [],
     "answer": "Mama’s Little Bakery"
   },
   {
-    "id": 293,
-    "question": ": Which Friend once mugged Ross?",
-    "choices": [],
-    "answer": "Phoebe"
-  },
-  {
     "id": 294,
-    "question": ": Monica, Ross and Rachel attended what high school?",
+    "question": "Monica, Ross and Rachel attended what high school?",
     "choices": [],
     "answer": "Lincoln High School"
   },
   {
     "id": 295,
-    "question": ": Who were on “a break”?",
+    "question": "Who were on “a break”?",
     "choices": [],
     "answer": "Rachel and Ross"
   },
   {
     "id": 296,
-    "question": ": What was the name of Monica’s senior prom date?",
+    "question": "What was the name of Monica’s senior prom date?",
     "choices": [],
     "answer": "Roy Gublik"
   },
   {
     "id": 297,
-    "question": ": Ross was jealous of who at Rachel’s job?",
+    "question": "Ross was jealous of who at Rachel’s job?",
     "choices": [],
     "answer": "Mark"
   },
   {
     "id": 298,
-    "question": ": What was the name of the “hot girl from the Xerox place?”",
+    "question": "What was the name of the 'hot girl from the Xerox place?'",
     "choices": [],
     "answer": "Chloe"
   },
   {
     "id": 299,
-    "question": ": What did Rachel get a tattoo of?",
+    "question": "What did Rachel get a tattoo of?",
     "choices": [],
     "answer": "A heart"
-  },
-  {
-    "id": 300,
-    "question": ": Who is the first Friend to speak on the show?",
-    "choices": [],
-    "answer": "Monica"
   }
 ]
