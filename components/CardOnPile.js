@@ -1,30 +1,39 @@
 import React from "react";
-import { StyleSheet, TouchableOpacity } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 
-export default function App({ setCardIsOnReading, unread }) {
+export default function App({ setCardIsOnReading, unread, card }) {
   return (
-    <TouchableOpacity
-      style={unread ? styles.cardBack : styles.cardFront}
-      onPress={() => {
-        setCardIsOnReading(true);
-      }}
-    ></TouchableOpacity>
+    <>
+      {unread ? (
+        <TouchableOpacity
+          style={styles.cardUnread}
+          onPress={() => {
+            setCardIsOnReading(true);
+          }}
+        >
+          <Text>{card.id}</Text>
+        </TouchableOpacity>
+      ) : (
+        <View style={card !== null && styles.cardRead}></View>
+      )}
+    </>
   );
 }
 
 const styles = StyleSheet.create({
-  cardBack: {
+  cardUnread: {
     width: "60%",
     height: "30%",
     backgroundColor: "blue",
     borderRadius: 10,
     marginBottom: 30,
+    elevation: 5,
   },
-  cardFront: {
+  cardRead: {
     width: "60%",
     height: "30%",
     backgroundColor: "green",
     borderRadius: 10,
-    marginBottom: 30,
+    marginTop: 30,
   },
 });
