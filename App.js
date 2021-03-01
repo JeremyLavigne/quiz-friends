@@ -20,9 +20,22 @@ export default function App() {
   const [activeAlreadyReadCard, setActiveAlreadyReadCard] = useState(null);
   const [activeReadCard, setActiveReadCard] = useState(null);
 
-  const cardIsDrawn = () => {};
+  const cardIsDrawn = (card) => {
+    setActiveReadCard(card);
+  };
 
-  const cardIdDiscarded = () => {};
+  const cardIsDiscarded = (card) => {
+    if (card === null) {
+      return;
+    }
+    const newUnreadCards = unreadCards.filter((c) => c.id !== card.id);
+    const newAlreadyReadCards = alreadyReadCards.concat(card);
+
+    setUnreadCards(newUnreadCards);
+    setAlreadyReadCards(newAlreadyReadCards);
+    setActiveUnreadCard(pickRandomCard(newUnreadCards));
+    setActiveAlreadyReadCard(card);
+  };
 
   return (
     <View style={styles.container}>
@@ -30,6 +43,7 @@ export default function App() {
         <>
           <CardOnPile
             setCardIsOnReading={setCardIsOnReading}
+            cardIsDrawn={cardIsDrawn}
             unread={true}
             card={activeUnreadCard}
           />
@@ -42,7 +56,11 @@ export default function App() {
         </>
       )}
       {cardIsOnReading && (
-        <CardOnReading setCardIsOnReading={setCardIsOnReading} />
+        <CardOnReading
+          setCardIsOnReading={setCardIsOnReading}
+          card={activeReadCard}
+          cardIsDiscarded={cardIsDiscarded}
+        />
       )}
       <StatusBar style="auto" />
     </View>

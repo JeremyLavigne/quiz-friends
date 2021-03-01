@@ -1,12 +1,15 @@
 import React from "react";
-import { Button, StyleSheet, View } from "react-native";
+import { Button, Text, StyleSheet, View } from "react-native";
 
-export default function App({ setCardIsOnReading }) {
+export default function App({ setCardIsOnReading, cardIsDiscarded, card }) {
   return (
     <View style={styles.cardOnReading}>
+      <Text>{card.question}</Text>
+      <Text>{card.answer}</Text>
       <Button
         onPress={() => {
           setCardIsOnReading(false);
+          cardIsDiscarded(card);
         }}
         title="Close"
       />

@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 
-export default function App({ setCardIsOnReading, unread, card }) {
+export default function App({ setCardIsOnReading, cardIsDrawn, unread, card }) {
   return (
     <>
       {unread ? (
@@ -9,12 +9,15 @@ export default function App({ setCardIsOnReading, unread, card }) {
           style={styles.cardUnread}
           onPress={() => {
             setCardIsOnReading(true);
+            cardIsDrawn(card);
           }}
         >
           <Text>{card.id}</Text>
         </TouchableOpacity>
       ) : (
-        <View style={card !== null && styles.cardRead}></View>
+        <View style={card !== null && styles.cardRead}>
+          <Text>{card !== null && card.id}</Text>
+        </View>
       )}
     </>
   );
