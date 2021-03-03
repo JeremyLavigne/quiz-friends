@@ -1,27 +1,36 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import CardOnPile from "./components/CardOnPile";
-import CardOnReading from "./components/CardOnReading";
-import listOfCards from "./friends.json";
 
+import CardOnReading from "./components/CardOnReading";
+import CardUnread from "./components/CardUnread";
+import CardAlreadyRead from "./components/CardAlreadyRead";
+
+import listOfCards from "./friends.json";
+import { pickRandomCard } from "./utils/functions";
+
+// =================================================================================
 export default function App() {
-  const pickRandomCard = (list) => {
-    const randNumber = Math.floor(Math.random() * list.length - 1);
-    return list[randNumber];
-  };
+  // ------------------- Variables -------------------------
 
   const [cardIsOnReading, setCardIsOnReading] = useState(false);
+  // true : card on screen / false : pile on screen
   const [unreadCards, setUnreadCards] = useState(listOfCards);
+  // All non-read cards
   const [alreadyReadCards, setAlreadyReadCards] = useState([]);
+  // All read cards
   const [activeUnreadCard, setActiveUnreadCard] = useState(
     pickRandomCard(listOfCards)
-  );
+  ); // Card on top of non-read pile
   const [activeAlreadyReadCard, setActiveAlreadyReadCard] = useState(null);
-  const [activeReadCard, setActiveReadCard] = useState(null);
+  // Card on top of read pile
+  const [activeOnReadingCard, setActiveOnReadingCard] = useState(null);
+  // Card on reading
+
+  // ----------------- Functions -------------------------
 
   const cardIsDrawn = (card) => {
-    setActiveReadCard(card);
+    setActiveOnReadingCard(card);
   };
 
   const cardIsDiscarded = (card) => {
@@ -37,28 +46,24 @@ export default function App() {
     setActiveAlreadyReadCard(card);
   };
 
+  // ---------------------- Rendering --------------------------
   return (
     <View style={styles.container}>
       {!cardIsOnReading && (
         <>
-          <CardOnPile
+          <CardUnread
             setCardIsOnReading={setCardIsOnReading}
             cardIsDrawn={cardIsDrawn}
-            unread={true}
             card={activeUnreadCard}
           />
           <Text>Draw a card !</Text>
-          <CardOnPile
-            setCardIsOnReading={setCardIsOnReading}
-            unread={false}
-            card={activeAlreadyReadCard}
-          />
+          <CardAlreadyRead card={activeAlreadyReadCard} />
         </>
       )}
       {cardIsOnReading && (
         <CardOnReading
           setCardIsOnReading={setCardIsOnReading}
-          card={activeReadCard}
+          card={activeOnReadingCard}
           cardIsDiscarded={cardIsDiscarded}
         />
       )}
@@ -67,6 +72,7 @@ export default function App() {
   );
 }
 
+// =================================================================================
 const styles = StyleSheet.create({
   container: {
     flex: 1,

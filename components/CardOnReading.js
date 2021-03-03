@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Text, StyleSheet, View, TouchableOpacity } from "react-native";
 
+// =================================================================================
 export default function App({ setCardIsOnReading, cardIsDiscarded, card }) {
   const [displayAnswer, setDisplayAnswer] = useState(false);
 
@@ -34,6 +35,7 @@ export default function App({ setCardIsOnReading, cardIsDiscarded, card }) {
   );
 }
 
+// =================================================================================
 const styles = StyleSheet.create({
   cardOnReading: {
     width: "80%",
