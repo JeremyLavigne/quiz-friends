@@ -1,26 +1,15 @@
-import React, { useState } from "react";
-import { Button, Text, StyleSheet, View, TouchableOpacity } from "react-native";
+import React from "react";
+import { Button, Text, StyleSheet, View } from "react-native";
+import AnswerRevealer from "./AnswerRevealer";
 
 // =================================================================================
 export default function App({ setCardIsOnReading, cardIsDiscarded, card }) {
-  const [displayAnswer, setDisplayAnswer] = useState(false);
-
   return (
     <View style={styles.cardOnReading}>
       <Text style={styles.question}>{card && card.question}</Text>
 
-      {displayAnswer ? (
-        <View style={styles.answerContainer}>
-          <Text style={styles.answer}>{card && card.answer}</Text>
-        </View>
-      ) : (
-        <TouchableOpacity
-          style={styles.revealContainer}
-          onPress={() => setDisplayAnswer(true)}
-        >
-          <Text style={styles.reveal}>Reveal Answer</Text>
-        </TouchableOpacity>
-      )}
+      <AnswerRevealer answer={card ? card.answer : ""} />
+
       <View style={styles.closeButton}>
         <Button
           onPress={() => {
@@ -53,29 +42,6 @@ const styles = StyleSheet.create({
     marginTop: 30,
     textAlign: "justify",
     fontSize: 22,
-  },
-  answerContainer: {
-    margin: 10,
-    paddingLeft: 5,
-    paddingVertical: 10,
-    borderColor: "black",
-    borderWidth: 2,
-  },
-  revealContainer: {
-    margin: 10,
-    paddingLeft: 5,
-    paddingVertical: 10,
-    backgroundColor: "grey",
-  },
-  reveal: {
-    color: "white",
-    textAlign: "center",
-    fontSize: 18,
-  },
-  answer: {
-    color: "black",
-    textAlign: "center",
-    fontSize: 18,
   },
   closeButton: {
     width: "30%",
