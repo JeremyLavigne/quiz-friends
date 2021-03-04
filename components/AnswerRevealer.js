@@ -3,32 +3,46 @@ import { Animated, View, StyleSheet, PanResponder, Text } from "react-native";
 
 // =================================================================================
 export default function AnswerRevealer({ answer }) {
-  const [displayAnswer, setDisplayAnswer] = useState(false);
   const [openerRightWidth, setOpenerRightWidth] = useState("96%");
 
-  // const handleOnPanResponderMove = (Xpos) => {
-  //   const widthTry = 800; // Should be the View total width
-  //   alert("here");
+  const handleOnPanResponderMove = (Xpos) => {
+    const widthTry = 275; // Should be the View total width
+    let percent = 96;
+    const XposStr = JSON.stringify(Xpos);
+    const XposNum = parseInt(XposStr);
 
-  //   const percent = Math.floor(widthTry - widthTry / Xpos);
-  //   const cssWidth = percent.toString() + "%";
-  //   if (cssWidth !== openerRightWidth) {
-  //     setOpenerRightWidth(cssWidth);
-  //   }
+    if (Xpos !== 0) {
+      percent = Math.floor(((widthTry - XposNum) / widthTry) * 100);
+    }
+    const cssWidth = percent.toString() + "%";
+    console.log(
+      widthTry,
+      widthTry - XposNum,
+      (widthTry - XposNum) / widthTry,
+      Math.floor((widthTry - XposNum) / widthTry) * 100
+    );
 
-  //   return Animated.event([null, { dx: pan.x, dy: pan.y }], {});
-  // };
+    if (cssWidth !== openerRightWidth) {
+      setOpenerRightWidth(cssWidth);
+    }
+  };
 
   const pan = useRef(new Animated.ValueXY()).current;
   const panResponder = useRef(
     PanResponder.create({
       onMoveShouldSetPanResponder: () => true,
-      onPanResponderMove: Animated.event([null, { dx: pan.x, dy: pan.y }], {}),
-      onPanResponderRelease: () => {
-        Animated.spring(pan, {
-          toValue: { x: 0, y: 0 },
-        }).start();
-      },
+      onPanResponderMove: Animated.event([null, { dx: pan.x, dy: pan.y }], {
+        // useNativeDriver: true,
+        listener: () => handleOnPanResponderMove(pan.x),
+      }),
+      // onPanResponderRelease: () => {
+      //   Animated.spring(pan, {
+      //     toValue: { x: 0, y: 0 },
+      //     listener: () => {
+      //       setOpenerRightWidth("96%");
+      //     },
+      //   }).start();
+      // },
     })
   ).current;
 
@@ -54,7 +68,7 @@ export default function AnswerRevealer({ answer }) {
           backgroundColor: "green",
           zIndex: 1,
         }}
-      ></View>
+      />
     </View>
   );
 }
@@ -69,12 +83,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginHorizontal: "2%",
     borderRadius: 5,
+    zIndex: -1,
   },
   opener: {
     height: 106,
     width: 40,
     backgroundColor: "blue",
     borderRadius: 5,
+    zIndex: 3,
   },
   answer: {
     position: "absolute",
