@@ -51,7 +51,7 @@
     "id": "F-9",
     "question": "Have many husbands in total have Monica, Rachel and Phoebe had?",
     "choices": [],
-    "answer": "Five husbands. Monica's only husband in the show was Chandler. Rachel had ex-fiance Barry who she ditched at the alter so he never actually became her husband but she did go on to marry Ross while drunk in Vegas. Phoebe had three husbands - Canadian ice-skater Duncan who she married so he could get a green card, Mike Hannigan, and her unnamed Vegas husband that she married in between those two marriages."
+    "answer": "Five husbands. Monica - Chandler, Rachel - Ross, Phoebe - Duncan, Mike Hannigan, 'unnamed Vegas husband'."
   },
   {
     "id": "F-10",
@@ -290,12 +290,7 @@
   {
     "id": "F-49",
     "question": "In which city the series Friends is set?",
-    "choices": [
-      "Los Angeles",
-      "New York City",
-      "Miami",
-      "Seattle"
-    ],
+    "choices": ["Los Angeles", "New York City", "Miami", "Seattle"],
     "answer": "New York City"
   },
   {
@@ -312,23 +307,13 @@
   {
     "id": "F-51",
     "question": "What is Monica most skilled at?",
-    "choices": [
-      "Bricklaying",
-      "Cooking",
-      "American football",
-      "Singing"
-    ],
+    "choices": ["Bricklaying", "Cooking", "American football", "Singing"],
     "answer": "Cooking"
   },
   {
     "id": "F-52",
     "question": "Monica briefly dates billionaire Pete Becker. Which country does he take her for their first date?",
-    "choices": [
-      "France",
-      "Italy",
-      "England",
-      "Greece"
-    ],
+    "choices": ["France", "Italy", "England", "Greece"],
     "answer": "Italy"
   },
   {
@@ -356,23 +341,13 @@
   {
     "id": "F-55",
     "question": "What’s the name of Joey’s penguin?",
-    "choices": [
-      "Snowflake",
-      "Waddle",
-      "Huggsy",
-      "Bobber"
-    ],
+    "choices": ["Snowflake", "Waddle", "Huggsy", "Bobber"],
     "answer": "Huggsy"
   },
   {
     "id": "F-56",
     "question": "Which cartoon character was on Phoebe’s thermos that Ursula threw under a bus?",
-    "choices": [
-      "Pebbles Flintstone",
-      "Yogi Bear",
-      "Judy Jetson",
-      "Bullwinkle"
-    ],
+    "choices": ["Pebbles Flintstone", "Yogi Bear", "Judy Jetson", "Bullwinkle"],
     "answer": "Judy Jetson"
   },
   {
@@ -389,12 +364,7 @@
   {
     "id": "F-58",
     "question": "What song is Phoebe best known for?",
-    "choices": [
-      "Smelly Cat",
-      "Smelly Dog",
-      "Smelly Rabbit",
-      "Smelly Worm"
-    ],
+    "choices": ["Smelly Cat", "Smelly Dog", "Smelly Rabbit", "Smelly Worm"],
     "answer": "Smelly Cat"
   },
   {
@@ -411,34 +381,19 @@
   {
     "id": "F-60",
     "question": "What does Joey never share?",
-    "choices": [
-      "His books",
-      "His information",
-      "His food",
-      "His DVDs"
-    ],
+    "choices": ["His books", "His information", "His food", "His DVDs"],
     "answer": "His food"
   },
   {
     "id": "F-61",
     "question": "What is Chandler’s middle name?",
-    "choices": [
-      "Muriel",
-      "Jason",
-      "Kim",
-      "Zachary"
-    ],
+    "choices": ["Muriel", "Jason", "Kim", "Zachary"],
     "answer": "Muriel"
   },
   {
     "id": "F-62",
     "question": " Which Friends character plays Dr. Drake Ramoray on the show Days Of Our Lives?",
-    "choices": [
-      "Ross Geller",
-      "Pete Becker",
-      "Eddie Menuek",
-      "Joey Tribbiani"
-    ],
+    "choices": ["Ross Geller", "Pete Becker", "Eddie Menuek", "Joey Tribbiani"],
     "answer": "Joey Tribbiani"
   },
   {
@@ -455,12 +410,7 @@
   {
     "id": "F-64",
     "question": "What’s the name of the grumpy person who works at the coffee shop?",
-    "choices": [
-      "Herman",
-      "Gunther",
-      "Frasier",
-      "Eddie"
-    ],
+    "choices": ["Herman", "Gunther", "Frasier", "Eddie"],
     "answer": "Gunther"
   },
   {
@@ -477,12 +427,7 @@
   {
     "id": "F-66",
     "question": "What kind of uniform does Joey wear to Monica and Chandler’s wedding?",
-    "choices": [
-      "Chef",
-      "Soldier",
-      "Fire fighter",
-      "A baseball player"
-    ],
+    "choices": ["Chef", "Soldier", "Fire fighter", "A baseball player"],
     "answer": "Soldier"
   },
   {
@@ -499,23 +444,13 @@
   {
     "id": "F-68",
     "question": "What is the name of Rachel’s Sphynx cat?",
-    "choices": [
-      "Baldy",
-      "Mrs. Whiskerson",
-      "Sid",
-      "Felix"
-    ],
+    "choices": ["Baldy", "Mrs. Whiskerson", "Sid", "Felix"],
     "answer": "Mrs. Whiskerson"
   },
   {
     "id": "F-69",
     "question": "When Ross and Rachel were 'on a break,' Ross slept with Chloe. Where does she work?",
-    "choices": [
-      "Xerox",
-      "Microsoft",
-      "Domino’s",
-      "Bank of America"
-    ],
+    "choices": ["Xerox", "Microsoft", "Domino’s", "Bank of America"],
     "answer": "Xerox"
   },
   {
@@ -669,12 +604,7 @@
   {
     "id": "F-93",
     "question": "Where did Carol first meet Susan?",
-    "choices": [
-      "In college",
-      "At work",
-      "At the gym",
-      "At Central Per"
-    ],
+    "choices": ["In college", "At work", "At the gym", "At Central Per"],
     "answer": "At the gym"
   },
   {
@@ -691,23 +621,13 @@
   {
     "id": "F-95",
     "question": "What were Ben's first words?",
-    "choices": [
-      "Hi",
-      "Bye",
-      "Mom",
-      "Dumb"
-    ],
+    "choices": ["Hi", "Bye", "Mom", "Dumb"],
     "answer": "Hi"
   },
   {
     "id": "F-96",
     "question": "How long did Ross and Emily date before they got engaged?",
-    "choices": [
-      "14 days",
-      "6 weeks",
-      "A year",
-      "3 months"
-    ],
+    "choices": ["14 days", "6 weeks", "A year", "3 months"],
     "answer": "6 weeks"
   },
   {
@@ -757,23 +677,13 @@
   {
     "id": "F-101",
     "question": "Joey and Phoebe found Tag’s sweater in Rachel’s apartment, assuming he’s her baby’s father. What color is the sweater?",
-    "choices": [
-      "Red",
-      "Blue",
-      "Green",
-      "Black"
-    ],
+    "choices": ["Red", "Blue", "Green", "Black"],
     "answer": "Red"
   },
   {
     "id": "F-102",
     "question": "Rachel had a one-night stand with Paolo after Ross starts dating who?",
-    "choices": [
-      "Julie",
-      "Mona",
-      "Emily",
-      "Jill"
-    ],
+    "choices": ["Julie", "Mona", "Emily", "Jill"],
     "answer": "Julie"
   },
   {
@@ -812,33 +722,19 @@
   {
     "id": "F-106",
     "question": "What was the name of the first restaurant Monica was head chef at?",
-    "choices": [
-      "Alessandro’s",
-      "Moondance Diner",
-      "Iridium",
-      "Javu"
-    ],
+    "choices": ["Alessandro’s", "Moondance Diner", "Iridium", "Javu"],
     "answer": "Alessandro’s"
   },
   {
     "id": "F-107",
     "question": "Monica and Chandler adopted Erica's kid(s). How many kid(s) did she have?",
-    "choices": [
-      "Just one",
-      "Twins",
-      "Triplets"
-    ],
+    "choices": ["Just one", "Twins", "Triplets"],
     "answer": "Twins"
   },
   {
     "id": "F-108",
     "question": "How many times did Chandler and Janice break up during the entirety of Friends?",
-    "choices": [
-      "Just once",
-      "2 times",
-      "5 times",
-      "8 times"
-    ],
+    "choices": ["Just once", "2 times", "5 times", "8 times"],
     "answer": "5 times"
   },
   {
@@ -866,44 +762,25 @@
   {
     "id": "F-111",
     "question": "Who was briefly roommates with Australian dancer Janine Lacroix?",
-    "choices": [
-      "Chandler",
-      "Phoebe",
-      "Ross",
-      "Joey"
-    ],
+    "choices": ["Chandler", "Phoebe", "Ross", "Joey"],
     "answer": "Joey"
   },
   {
     "id": "F-112",
     "question": "In “The One Where Estelle Dies,” who pretended to be Estelle when Joey called?",
-    "choices": [
-      "Phoebe",
-      "Rachel",
-      "Chandler",
-      "Monica"
-    ],
+    "choices": ["Phoebe", "Rachel", "Chandler", "Monica"],
     "answer": "Phoebe"
   },
   {
     "id": "F-113",
     "question": "Before they were friends, who did Phoebe mug as a kid?",
-    "choices": [
-      "Chandler",
-      "Joey",
-      "Monica",
-      "Ross"
-    ],
+    "choices": ["Chandler", "Joey", "Monica", "Ross"],
     "answer": "Ross"
   },
   {
     "id": "F-114",
     "question": "Which one of the guys did Ursula go out with?",
-    "choices": [
-      "Joey",
-      "Chandler",
-      "Ross"
-    ],
+    "choices": ["Joey", "Chandler", "Ross"],
     "answer": "Joey"
   },
   {
@@ -937,12 +814,7 @@
   {
     "id": "F-118",
     "question": "Phoebe’s love interest David couldn’t be with her because he had a grant to study where?",
-    "choices": [
-      "Yemen",
-      "Minsk",
-      "Aruba",
-      "Athens"
-    ],
+    "choices": ["Yemen", "Minsk", "Aruba", "Athens"],
     "answer": "Minsk"
   },
   {
@@ -970,11 +842,7 @@
   {
     "id": "F-121",
     "question": "Who had a crush on Joshua Burgin?",
-    "choices": [
-      "Monica",
-      "Rachel",
-      "Phoebe"
-    ],
+    "choices": ["Monica", "Rachel", "Phoebe"],
     "answer": "Rachel"
   },
   {
@@ -991,43 +859,25 @@
   {
     "id": "F-123",
     "question": "Dr. Long appeared in 5 episodes of Friends as Rachel’s obstetrician during which season?",
-    "choices": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
+    "choices": ["7", "8", "9", "10"],
     "answer": "8"
   },
   {
     "id": "F-124",
     "question": "What is the name of Ross's student and ex-girlfriend?",
-    "choices": [
-      "Sarah",
-      "Elizabeth",
-      "Amanda",
-      "Samantha"
-    ],
+    "choices": ["Sarah", "Elizabeth", "Amanda", "Samantha"],
     "answer": "Elizabeth"
   },
   {
     "id": "F-125",
     "question": "Who got hit with a tranquilizer dart while trying to save Ross's monkey Marcel?",
-    "choices": [
-      "Rachel",
-      "Monica",
-      "Joey",
-      "Phoebe"
-    ],
+    "choices": ["Rachel", "Monica", "Joey", "Phoebe"],
     "answer": "Phoebe"
   },
   {
     "id": "F-126",
     "question": "Which one of Rachel’s sisters was played by Reese Witherspoon?",
-    "choices": [
-      "Amy",
-      "Jill"
-    ],
+    "choices": ["Amy", "Jill"],
     "answer": "Jill"
   },
   {
@@ -1055,45 +905,25 @@
   {
     "id": "F-129",
     "question": "Which member of the Friends crew kissed Rachel’s mom?",
-    "choices": [
-      "Chandler",
-      "Ross",
-      "Phoebe",
-      "Joey"
-    ],
+    "choices": ["Chandler", "Ross", "Phoebe", "Joey"],
     "answer": "Joey"
   },
   {
     "id": "F-130",
     "question": "What job did Rachel's dad have?",
-    "choices": [
-      "Professor",
-      "Attorney",
-      "Doctor",
-      "TV personality"
-    ],
+    "choices": ["Professor", "Attorney", "Doctor", "TV personality"],
     "answer": "Doctor"
   },
   {
     "id": "F-131",
     "question": "What is the name of Phoebe's actual birth mother?",
-    "choices": [
-      "Phoebe",
-      "Gloria",
-      "Meredith",
-      "Sky"
-    ],
+    "choices": ["Phoebe", "Gloria", "Meredith", "Sky"],
     "answer": "Phoebe"
   },
   {
     "id": "F-132",
     "question": "Which one of Joey's sisters accidentally got pregnant in Season 8?",
-    "choices": [
-      "Gina",
-      "Mary-Therese",
-      "Dina",
-      "Mary-Angela"
-    ],
+    "choices": ["Gina", "Mary-Therese", "Dina", "Mary-Angela"],
     "answer": "Dina"
   },
   {
