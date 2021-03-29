@@ -1,100 +1,83 @@
-import React, { useRef, useState } from "react";
-import { Animated, View, StyleSheet, PanResponder, Text } from "react-native";
+import React, { useRef } from "react";
+import { View, StyleSheet, Text } from "react-native";
 
+// Own made slider, inspired by https://github.com/callstack/react-native-slider#ref code
 // =================================================================================
 export default function AnswerRevealer({ answer }) {
-  const [openerRightWidth, setOpenerRightWidth] = useState("96%");
+  const [value, setValue] = React.useState(30);
 
-  const handleOnPanResponderMove = (Xpos) => {
-    const widthTry = 275; // Should be the View total width
-    let percent = 96;
-    const XposStr = JSON.stringify(Xpos);
-    const XposNum = parseInt(XposStr);
+  const containerWidth = 300;
+  const containerHeight = 100;
+  const thumbSize = 20;
 
-    if (Xpos !== 0) {
-      percent = Math.floor(((widthTry - XposNum) / widthTry) * 100);
-    }
-    const cssWidth = percent.toString() + "%";
-    console.log(
-      widthTry,
-      widthTry - XposNum,
-      (widthTry - XposNum) / widthTry,
-      Math.floor((widthTry - XposNum) / widthTry) * 100
-    );
+  const percentageValue = value / 100;
+  const minPercent = percentageValue;
+  const maxPercent = 1 - percentageValue;
 
-    if (cssWidth !== openerRightWidth) {
-      setOpenerRightWidth(cssWidth);
-    }
+  const valueOffset = percentageValue * containerWidth;
+
+  // -------------------------------- Style -----------------------
+
+  const containerStyle = {
+    width: containerWidth,
+    maxHeight: containerHeight,
+    justifyContent: "center",
+    marginHorizontal: "2%",
+    borderRadius: 5,
+    flexGrow: 1,
+    flexShrink: 1,
+    flexBasis: "auto",
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#777",
   };
 
-  const pan = useRef(new Animated.ValueXY()).current;
-  const panResponder = useRef(
-    PanResponder.create({
-      onMoveShouldSetPanResponder: () => true,
-      onPanResponderMove: Animated.event([null, { dx: pan.x, dy: pan.y }], {
-        // useNativeDriver: true,
-        listener: () => handleOnPanResponderMove(pan.x),
-      }),
-      // onPanResponderRelease: () => {
-      //   Animated.spring(pan, {
-      //     toValue: { x: 0, y: 0 },
-      //     listener: () => {
-      //       setOpenerRightWidth("96%");
-      //     },
-      //   }).start();
-      // },
-    })
-  ).current;
+  const trackStyle = {
+    height: 100,
+    borderRadius: 5,
+    userSelect: "none",
+  };
+
+  const minimumTrackStyle = {
+    ...trackStyle,
+    backgroundColor: "pink",
+    flexGrow: minPercent * 100,
+  };
+
+  const maximumTrackStyle = {
+    ...trackStyle,
+    backgroundColor: "yellow",
+    flexGrow: maxPercent * 100,
+  };
+
+  const thumbViewStyle = {
+    width: thumbSize,
+    height: 100,
+    left: valueOffset - thumbSize / 2,
+    top: 0,
+    position: "absolute",
+    backgroundColor: "green",
+    zIndex: 1,
+    borderRadius: thumbSize / 2,
+    overflow: "hidden",
+    userSelect: "none",
+  };
 
   return (
-    <View style={styles.container}>
-      <Animated.View
-        style={{
-          zIndex: 3,
-          transform: [{ translateX: pan.x }],
-        }}
-        {...panResponder.panHandlers}
-      >
-        <View style={styles.opener} />
-      </Animated.View>
-
+    <View style={containerStyle} id="answer-revealer">
       <Text style={styles.answer}>{answer}</Text>
-      <View
-        style={{
-          position: "absolute",
-          right: 0,
-          width: openerRightWidth,
-          height: "100%",
-          backgroundColor: "green",
-          zIndex: 1,
-        }}
-      />
+
+      <View pointerEvents="none" style={minimumTrackStyle} />
+      <View pointerEvents="none" style={thumbViewStyle} />
+      <View pointerEvents="none" style={maximumTrackStyle} />
     </View>
   );
 }
 
 // =================================================================================
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: "96%",
-    maxHeight: 100,
-    backgroundColor: "grey",
-    justifyContent: "center",
-    marginHorizontal: "2%",
-    borderRadius: 5,
-    zIndex: -1,
-  },
-  opener: {
-    height: 106,
-    width: 40,
-    backgroundColor: "blue",
-    borderRadius: 5,
-    zIndex: 3,
-  },
   answer: {
     position: "absolute",
-    left: 10,
     color: "white",
     textAlign: "center",
     fontSize: 18,

@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 import CardOnReading from "./components/CardOnReading";
@@ -26,6 +26,11 @@ export default function App() {
   // Card on top of read pile
   const [activeOnReadingCard, setActiveOnReadingCard] = useState(null);
   // Card on reading
+
+  // ----------------- Functions -------------------------
+  useEffect(() => {
+    setActiveUnreadCard(pickRandomCard(listOfCards));
+  }, [unreadCards]);
 
   // ----------------- Functions -------------------------
 
