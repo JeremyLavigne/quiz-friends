@@ -1,14 +1,18 @@
-import React, { useRef } from "react";
-import { View, StyleSheet, Text } from "react-native";
+import React, { useEffect, useState } from "react";
+import { View, StyleSheet, Text, Pressable } from "react-native";
 
 // Own made slider, inspired by https://github.com/callstack/react-native-slider#ref code
 // =================================================================================
-export default function AnswerRevealer({ answer }) {
-  const [value, setValue] = React.useState(30);
+export default function AnswerRevealer({ answer, cardWidth }) {
+  const [value, setValue] = useState(5);
+  const [containerWidth, setContainerWidth] = useState(300);
 
-  const containerWidth = 300;
   const containerHeight = 100;
-  const thumbSize = 20;
+  const thumbSize = containerWidth / 10;
+
+  useEffect(() => {
+    cardWidth && setContainerWidth(cardWidth - 20);
+  }, [cardWidth]);
 
   const percentageValue = value / 100;
   const minPercent = percentageValue;
@@ -16,13 +20,36 @@ export default function AnswerRevealer({ answer }) {
 
   const valueOffset = percentageValue * containerWidth;
 
+  const handleRelease = () => {
+    if (value > 80) {
+      setValue(95);
+    } else {
+      setValue(5);
+    }
+  };
+
+  const onMove = (event) => {
+    const { locationX: x } = event.nativeEvent;
+    const newValue =
+      ((minPercent * containerWidth + x - thumbSize / 2) / containerWidth) *
+      100;
+
+    if (newValue > 95) {
+      setValue(95);
+    } else if (newValue < 5) {
+      setValue(5);
+    } else {
+      setValue(newValue);
+    }
+  };
+
   // -------------------------------- Style -----------------------
 
   const containerStyle = {
     width: containerWidth,
     maxHeight: containerHeight,
     justifyContent: "center",
-    marginHorizontal: "2%",
+    marginHorizontal: 5, // borderWidth on parent container is 5
     borderRadius: 5,
     flexGrow: 1,
     flexShrink: 1,
@@ -33,20 +60,20 @@ export default function AnswerRevealer({ answer }) {
   };
 
   const trackStyle = {
-    height: 100,
+    height: containerHeight,
     borderRadius: 5,
-    userSelect: "none",
   };
 
   const minimumTrackStyle = {
     ...trackStyle,
     backgroundColor: "pink",
+    opacity: 0,
     flexGrow: minPercent * 100,
   };
 
   const maximumTrackStyle = {
     ...trackStyle,
-    backgroundColor: "yellow",
+    backgroundColor: "blue",
     flexGrow: maxPercent * 100,
   };
 
@@ -60,16 +87,21 @@ export default function AnswerRevealer({ answer }) {
     zIndex: 1,
     borderRadius: thumbSize / 2,
     overflow: "hidden",
-    userSelect: "none",
   };
 
   return (
-    <View style={containerStyle} id="answer-revealer">
+    <View style={containerStyle}>
       <Text style={styles.answer}>{answer}</Text>
 
-      <View pointerEvents="none" style={minimumTrackStyle} />
-      <View pointerEvents="none" style={thumbViewStyle} />
-      <View pointerEvents="none" style={maximumTrackStyle} />
+      <View style={minimumTrackStyle} />
+      <View
+        style={thumbViewStyle}
+        onStartShouldSetResponder={() => true}
+        onMoveShouldSetResponder={() => true}
+        onResponderMove={onMove}
+        onResponderRelease={handleRelease}
+      />
+      <View style={maximumTrackStyle} />
     </View>
   );
 }

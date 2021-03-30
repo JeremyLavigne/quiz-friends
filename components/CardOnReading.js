@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
 import { Button, Text, StyleSheet, View } from "react-native";
 import AnswerRevealer from "./AnswerRevealer";
 
 // =================================================================================
 export default function App({ setCardIsOnReading, cardIsDiscarded, card }) {
+  const [measurements, setMeasurements] = useState({});
+
+  useEffect(() => {}, [measurements]);
+
   return (
-    <View style={styles.cardOnReading}>
+    <View
+      style={styles.cardOnReading}
+      onLayout={({ nativeEvent }) => {
+        setMeasurements(nativeEvent.layout);
+      }}
+    >
       <Text style={styles.question}>{card && card.question}</Text>
 
-      <AnswerRevealer answer={card ? card.answer : ""} />
+      <AnswerRevealer
+        answer={card ? card.answer : ""}
+        cardWidth={measurements.width}
+      />
 
       <View style={styles.closeButton}>
         <Button
